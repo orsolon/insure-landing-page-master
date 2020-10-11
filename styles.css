@@ -119,6 +119,41 @@ h2:before {
     color: hsl(273, 4%, 51%)
 }
 
+@media (max-width: 576px) { 
+    
+    .title_section { 
+    font-size: 2em;    
+    margin: 15px auto;    
+    }
+
+    .text_section {
+    margin: 0 auto;  
+    font-size: smaller;
+    text-align: center;
+
+    }
+     
+    h4 {
+        font-size: smaller;
+        text-align: center;
+        margin: 0;
+    }
+
+    .differentsection {
+        display: flex;
+        flex-direction: column;
+    }
+    .img_differentsection {
+        margin: 15px auto 0px auto;
+        width: 25%;
+        justify-content: center;
+    }
+
+    h2:before {
+        margin: 50px auto 15px auto;
+    }
+}
+
 .about {
     background-color: hsl(256, 26%, 20%);
     min-height: 30vh;
@@ -132,6 +167,21 @@ h3 {
     font-family: 'DM Serif Display', serif;
     font-size: 2.3em;
     margin-top: .8em;    
+}
+
+@media (max-width: 576px) { 
+   .about_row{
+       display: flex;
+       flex-direction: column;
+   }
+
+    h3 {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0;
+    }
+
+
 }
 
 .footer {
@@ -151,4 +201,22 @@ h5 {
     color:hsl(270, 9%, 17%);
     font-size: .8rem;
     font-family: 'Karla', sans-serif;
+}
+
+@media (max-width: 576px) { 
+    .footer_responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_column, .icons_list, .footer_logo {
+        margin: 10px auto;
+        
+    }
+
+    h5 {
+        display: block;
+        min-width: 80px;
+       
+    }
 }
