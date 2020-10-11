@@ -1,3 +1,19 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd0fcc86-a940-4892-8210-08193ac9d75a/deploy-status)](https://app.netlify.com/sites/socialproofsectionm/deploys)
+
+##My solution (https://insurelandingpagesolution.netlify.app/)
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML]
+- [CSS]
+- [BOOTSTRAP]
+
+
+
+
+
 # Frontend Mentor - Insure landing page
 
 ![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
